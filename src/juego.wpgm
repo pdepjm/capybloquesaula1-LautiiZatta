@@ -11,12 +11,18 @@ program ejemplo {
   game.addVisual(lataDeCerveza)
   game.addVisual(barrilDeCombustible)
   game.addVisual(plantaDeTratamiento)
+  game.addVisual(carton)
   game.addVisualCharacter(capy)
   
   game.onCollideDo(capy, { elemento =>
     elemento.colisionarCon(capy)
   })
   
+  // Cambiar posicion carton
+  game.onTick(5000, "cambiarPosicionCarton", {
+    
+  })
+
   // Cambiar combustible cada 5 segundos
   game.onTick(5000, "cambiarCombustible", {
     barrilDeCombustible.cambiarCombustible()

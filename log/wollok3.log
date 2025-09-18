@@ -227,3 +227,6 @@
 {"level":"info","message":"⌛ Building environment","timeElapsed":134,"timestamp":"2025-09-18T03:25:10.780Z"}
 {"level":"info","message":"Removing diagnostics from /c:/Users/facundo.franco/Desktop/colecciones-capy/src/basura.wlk","timestamp":"2025-09-18T03:25:10.903Z"}
 {"level":"info","message":"⌛ Validating testExample.wtest","timeElapsed":122,"timestamp":"2025-09-18T03:25:11.036Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":126,"timestamp":"2025-09-18T14:54:29.497Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":190,"timestamp":"2025-09-18T14:54:30.510Z"}
+{"level":"info","message":"⌛ Validating src/juego.wpgm","timeElapsed":132,"timestamp":"2025-09-18T14:54:30.642Z"}

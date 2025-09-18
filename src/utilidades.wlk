@@ -6,3 +6,7 @@ object posicionAleatoria {
     0.randomUpTo(game.height()).truncate(0)
   )
 }
+
+object posicionLadoALado {
+  method calcular() = game.at(0.randomUpTo(game.width()).truncate(0), 8)
+}

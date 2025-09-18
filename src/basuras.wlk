@@ -2,6 +2,24 @@ import wollok.game.*
 import utilidades.*
 import combustibles.*
 
+
+object carton {
+  var property position = posicionLadoALado.calcular()
+  var impactoEnHuellaDeCarbono = 75
+  method impactoEnLaHuellaDeCarbono() = impactoEnHuellaDeCarbono
+  method nombre() = "carton"
+  method image() = self.nombre() + ".png"
+  method esReciclable() = true
+
+  method tratar() {
+    impactoEnHuellaDeCarbono *= 0.5
+  }
+
+  method colisionarCon(capy) {
+    capy.recolectarBasura(self)
+  }
+}
+
 object lataDeCerveza {
   var property position = posicionAleatoria.calcular()
   var property longitudCm = 10
